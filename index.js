@@ -14,3 +14,22 @@ function countDown(number) {
     number--
     }      
 }
+
+// console.log("hello")
+
+// const names = ['Lisa', 'Kaitlin', 'Jan'];
+// // const event = [birthday]
+
+// function writeCards(names) {
+//     for(let y = 0; y < names.length; y++) {
+//         console.log(`Thank you, ${names[y]}, for the wonderful birthday gift! `)
+//     }
+// }
+
+
+// function countDown(number) 
+//         while (number >= 0) {
+//         console.log(number)
+//         number--
+//     }
+// }
