@@ -1,16 +1,15 @@
-// Code your solutions in this file
+// use npm test 
 
-function writeCards(names, event) {
-    const messages = []
-    for (let i = 0; i < names.length; i++) {
-        messages.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
+const names = ['Lisa', 'Kaitlin', 'Jan'];
+// const event = [birthday]
+
+function writeCards() {
+    for(let y = 0; y < names.length; y++) {
+        console.log(`Thank you, ${names}, for the wonderful birthday gift! `)
     }
-    return messages
-} 
-
-function countDown(number) {
-    while (number >= 0) {
-    console.log(number)
-    number--
-    }      
+    
 }
+
+
+
+
